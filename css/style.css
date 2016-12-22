@@ -11,7 +11,15 @@
 .navbar li {
     display: inline;
     font-size: 2em;
-
+}
+.navbar a:link, .navbar a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color: #FFF;
+}
+.navbar a:hover, .navbar a:active {
+    border: 1;
+    background-color: rgba(131, 200, 239, 1);
 }
 .left {
     float: left;
@@ -160,9 +168,13 @@
     width: 50%;
     text-align: center;
 }
-.footer a:link, .footer a:visited, .footer a:hover, .footer a:active {
+.footer a:link, .footer a:visited {
     text-decoration: none;
     color: #fff;
+    font-size: 120%;
+}
+.footer a:hover, .footer a:active {
+    background-color: rgba(35, 139, 219, 1);
 }
 .signed {
     float: right;
