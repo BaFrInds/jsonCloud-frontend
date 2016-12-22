@@ -1,0 +1,23 @@
+body {
+    background-color: #000;
+    color: #FFF;
+}
+.hello {
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Coming Soon', cursive;
+}
+.text {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Coming Soon', cursive;
+}
+img {
+    width: 50%;
+    
+}
+.coffee {
+    font-size: 4.5em;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;    
+}
